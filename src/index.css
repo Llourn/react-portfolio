@@ -40,3 +40,13 @@ body {
 .bubble-japanese {
   font-family: "Cherry Bomb One", cursive;
 }
+
+a {
+  color: var(--blue);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+a:hover {
+  color: var(--rosewater);
+}
