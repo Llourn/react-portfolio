@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import Resume from "./components/Resume";
 
 function App() {
   const [activeSection, setActiveSection] = useState("about-me");
@@ -19,6 +20,8 @@ function App() {
       return <Portfolio />;
     } else if (activeSection === "contact-me") {
       return <Contact />;
+    } else if (activeSection === "resume") {
+      return <Resume />;
     }
   };
 
