@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Header.module.css";
 import { FaToriiGate } from "react-icons/fa";
 
-const Header = () => {
+const Header = ({ changeActiveSection }) => {
   return (
     <div className={styles.container}>
       <div className={styles.logo}>
@@ -10,10 +10,10 @@ const Header = () => {
       </div>
       <nav>
         <ul className={styles.links}>
-          <li>About Me</li>
-          <li>Portfolio</li>
-          <li>Contact</li>
-          <li>Resume</li>
+          <li onClick={() => changeActiveSection("about-me")}>About Me</li>
+          <li onClick={() => changeActiveSection("portfolio")}>Portfolio</li>
+          <li onClick={() => changeActiveSection("contact-me")}>Contact</li>
+          <li onClick={() => changeActiveSection("resume")}>Resume</li>
         </ul>
       </nav>
     </div>

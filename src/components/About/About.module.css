@@ -33,3 +33,7 @@
 .hero h1 > span:nth-child(5) {
   color: var(--sky);
 }
+
+.infoSection {
+  margin: 2rem;
+}
