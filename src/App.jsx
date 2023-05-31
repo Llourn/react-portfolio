@@ -1,12 +1,13 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import About from "./components/About";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <main>
-        <h1 className={"bubble-japanese"}>こんにちは</h1>
+        <About />
       </main>
       <Footer />
     </div>

@@ -1,0 +1,35 @@
+.hero {
+  height: 15rem;
+  background-image: url("/public/cherry-blossom.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero h1 {
+  position: absolute;
+  right: 2rem;
+  top: 50%;
+  font-size: clamp(3rem, 10vw, 6rem);
+  letter-spacing: clamp(0rem, 10vw, 0.4rem);
+  margin: 0;
+  line-height: 0;
+  color: var(--base);
+}
+
+.hero h1 > span:nth-child(1) {
+  color: var(--pink);
+}
+.hero h1 > span:nth-child(2) {
+  color: var(--red);
+}
+.hero h1 > span:nth-child(3) {
+  color: var(--peach);
+}
+.hero h1 > span:nth-child(4) {
+  color: var(--green);
+}
+.hero h1 > span:nth-child(5) {
+  color: var(--sky);
+}
