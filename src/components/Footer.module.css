@@ -1,4 +1,4 @@
 .container {
-  margin: 2rem;
-  background-color: var(--test);
+  background-color: var(--mantle);
+  padding: 1rem;
 }

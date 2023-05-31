@@ -1,0 +1,20 @@
+.container {
+  background-color: var(--crust);
+  padding: 1rem;
+}
+
+.links {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.links > li {
+  color: var(--blue);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.links > li:hover {
+  color: var(--rosewater);
+}

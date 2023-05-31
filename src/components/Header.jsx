@@ -1,7 +1,20 @@
 import React from "react";
+import styles from "./Header.module.css";
 
-const header = () => {
-  return <div>This is the header</div>;
+const Header = () => {
+  return (
+    <div className={styles.container}>
+      <div className={styles.logo}></div>
+      <nav>
+        <ul className={styles.links}>
+          <li>About Me</li>
+          <li>Portfolio</li>
+          <li>Contact</li>
+          <li>Resume</li>
+        </ul>
+      </nav>
+    </div>
+  );
 };
 
-export default header;
+export default Header;
