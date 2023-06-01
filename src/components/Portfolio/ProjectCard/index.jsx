@@ -4,7 +4,6 @@ import { CgWebsite } from "react-icons/cg";
 import { FaGithub } from "react-icons/fa";
 
 const ProjectCard = ({ mainCard, cardData }) => {
-  console.log(mainCard);
   return (
     <div className={`${mainCard ? styles.mainCard : ""} ${styles.container}`}>
       <div

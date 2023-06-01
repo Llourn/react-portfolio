@@ -19,3 +19,8 @@ form {
 .buttonContainer > button {
   float: right;
 }
+
+.error {
+  height: 1.5rem;
+  color: var(--red);
+}
