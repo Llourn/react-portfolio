@@ -1,5 +1,10 @@
-.container {
+.header {
   background-color: var(--crust);
+}
+
+.container {
+  max-width: var(--siteWidth);
+  margin: auto;
   padding-inline: 2rem;
   padding-block: 0.5rem;
   display: flex;

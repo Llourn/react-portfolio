@@ -1,16 +1,17 @@
 import React from "react";
-import Card from "./Card";
+import ProjectCard from "./ProjectCard";
 import styles from "./Portfolio.module.css";
-import cards from "../../data/projects.json";
+import projects from "../../data/projects.json";
 
 const Portfolio = () => {
   return (
     <div className={styles.container}>
       <h1>Portfolio</h1>
       <section className={styles.cards}>
-        {cards.map((card, index) => {
-          if (index === 0) return <Card mainCard={true} cardData={card} />;
-          else return <Card cardData={card} />;
+        {projects.map((project, index) => {
+          if (index === 0)
+            return <ProjectCard mainCard={true} cardData={project} />;
+          else return <ProjectCard cardData={project} />;
         })}
       </section>
     </div>

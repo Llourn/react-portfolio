@@ -37,3 +37,14 @@
 .infoSection {
   margin: 2rem;
 }
+
+.socials {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.socials > a > * {
+  height: 2rem;
+  width: 2rem;
+}

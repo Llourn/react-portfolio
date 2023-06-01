@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./About.module.css";
+import { FaTwitterSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -40,6 +41,29 @@ const About = () => {
             I also value work/life balance and know when to step away from the
             computer and recharge.
           </p>
+          <div className={styles.socials}>
+            <a
+              href="https://www.twitter.com/llourn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaTwitterSquare />
+            </a>
+            <a
+              href="https://github.com/Llourn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithubSquare />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/lornecyr/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin />
+            </a>
+          </div>
         </section>
       </section>
     </div>

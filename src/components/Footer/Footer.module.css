@@ -1,5 +1,10 @@
-.container {
+.footer {
   background-color: var(--mantle);
+}
+
+.container {
+  max-width: var(--siteWidth);
+  margin: auto;
   padding: 2rem;
   margin-top: 2rem;
 }

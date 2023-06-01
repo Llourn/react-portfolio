@@ -4,18 +4,20 @@ import { FaToriiGate } from "react-icons/fa";
 
 const Header = ({ changeActiveSection }) => {
   return (
-    <div className={styles.container}>
-      <div className={styles.logo}>
-        <FaToriiGate />
+    <div className={styles.header}>
+      <div className={styles.container}>
+        <div className={styles.logo}>
+          <FaToriiGate />
+        </div>
+        <nav>
+          <ul className={styles.links}>
+            <li onClick={() => changeActiveSection("about-me")}>About Me</li>
+            <li onClick={() => changeActiveSection("portfolio")}>Portfolio</li>
+            <li onClick={() => changeActiveSection("contact-me")}>Contact</li>
+            <li onClick={() => changeActiveSection("resume")}>Resume</li>
+          </ul>
+        </nav>
       </div>
-      <nav>
-        <ul className={styles.links}>
-          <li onClick={() => changeActiveSection("about-me")}>About Me</li>
-          <li onClick={() => changeActiveSection("portfolio")}>Portfolio</li>
-          <li onClick={() => changeActiveSection("contact-me")}>Contact</li>
-          <li onClick={() => changeActiveSection("resume")}>Resume</li>
-        </ul>
-      </nav>
     </div>
   );
 };

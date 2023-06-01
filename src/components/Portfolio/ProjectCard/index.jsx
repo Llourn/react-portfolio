@@ -1,9 +1,9 @@
 import React from "react";
-import styles from "./Card.module.css";
+import styles from "./ProjectCard.module.css";
 import { CgWebsite } from "react-icons/cg";
 import { FaGithub } from "react-icons/fa";
 
-const Card = ({ mainCard, cardData }) => {
+const ProjectCard = ({ mainCard, cardData }) => {
   console.log(mainCard);
   return (
     <div className={`${mainCard ? styles.mainCard : ""} ${styles.container}`}>
@@ -33,4 +33,4 @@ const Card = ({ mainCard, cardData }) => {
   );
 };
 
-export default Card;
+export default ProjectCard;
