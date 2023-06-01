@@ -14,7 +14,7 @@ const Contact = () => {
           <label name="message">Message:</label>
           <textarea name="message" id="" cols="30" rows="10"></textarea>
           <div className={styles.buttonContainer}>
-            <button>Submit</button>
+            <button onClick={(e) => e.preventDefault()}>Submit</button>
           </div>
         </form>
       </section>

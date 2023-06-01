@@ -1,14 +1,16 @@
 import React from "react";
 import styles from "./Header.module.css";
+import Logo from "./Logo";
 import { FaToriiGate } from "react-icons/fa";
 
 const Header = ({ changeActiveSection }) => {
   return (
     <div className={styles.header}>
       <div className={styles.container}>
-        <div className={styles.logo}>
+        {/* <div className={styles.logo}>
           <FaToriiGate />
-        </div>
+        </div> */}
+        <Logo />
         <nav>
           <ul className={styles.links}>
             <li onClick={() => changeActiveSection("about-me")}>About Me</li>
