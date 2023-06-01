@@ -14,7 +14,7 @@ const About = () => {
         </h1>
       </div>
       <section className={styles.infoSection}>
-        <h2>About Me</h2>
+        <h1>About Me</h1>
         <section>
           <p>Hi, I'm Lorne. 👋🏻</p>
           <p>
