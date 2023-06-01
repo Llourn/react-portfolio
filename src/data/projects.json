@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Cyriously In Japan",
+    "description": "An app to help people learn basic Japanese, and plan their trip to Japan. Built using ReactJS, SASS, Firebase, and Google Maps.",
+    "imageFileName": "cij.png",
+    "siteUrl": "https://cyriouslyinjapan.com",
+    "repoUrl": "https://github.com/Llourn/cyriously-in-japan"
+  },
+  {
+    "title": "Card Wise",
+    "description": "A browser-based study app that allows users to create and share decks of study cards. Built using Handlebars, ExpressJS, Mysql, Sequelize, and Nodejs.",
+    "imageFileName": "cardwise.png",
+    "siteUrl": "https://dry-badlands-78694.herokuapp.com/",
+    "repoUrl": "https://github.com/Pilotguide9897/CardWise"
+  },
+  {
+    "title": "DogFinder",
+    "description": "An app designed to help people find the perfect dog. Built with HTML, Javascript and Shoelace for the front end. NodeJS, and express for the back end.",
+    "imageFileName": "dog-finder.png",
+    "siteUrl": "https://llourn.github.io/dog-finder/",
+    "repoUrl": "https://github.com/Llourn/dog-finder"
+  },
+  {
+    "title": "Project Title",
+    "description": "This is a short description of the app.",
+    "imageFileName": "gojo-running.gif",
+    "siteUrl": "#",
+    "repoUrl": "#"
+  },
+  {
+    "title": "Project Title",
+    "description": "This is a short description of the app.",
+    "imageFileName": "mob-running.gif",
+    "siteUrl": "#",
+    "repoUrl": "#"
+  },
+  {
+    "title": "Project Title",
+    "description": "This is a short description of the app.",
+    "imageFileName": "unknown-running.gif",
+    "siteUrl": "#",
+    "repoUrl": "#"
+  }
+]

@@ -1,7 +1,28 @@
 import React from "react";
+import styles from "./Card.module.css";
+import { CgWebsite } from "react-icons/cg";
+import { FaGithub } from "react-icons/fa";
 
-const Card = () => {
-  return <div>Card</div>;
+const Card = ({ mainCard, cardData }) => {
+  console.log(mainCard);
+  return (
+    <div className={`${mainCard ? styles.mainCard : ""} ${styles.container}`}>
+      <div
+        className={styles.image}
+        style={{
+          backgroundImage: `url(/images/${cardData.imageFileName})`,
+        }}
+      ></div>
+      <section className={styles.content}>
+        <h3>{cardData.title}</h3>
+        <p>{cardData.description}</p>
+      </section>
+      <div className={styles.links}>
+        {cardData.siteUrl && <CgWebsite />}
+        {cardData.repoUrl && <FaGithub />}
+      </div>
+    </div>
+  );
 };
 
 export default Card;

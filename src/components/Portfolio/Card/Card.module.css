@@ -1,0 +1,28 @@
+.container {
+  background-color: var(--crust);
+  border: 1px solid var(--surface1);
+  border-radius: 2em;
+  flex: 1 0 300px;
+}
+
+.image {
+  height: 10rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 1.93em;
+  border-top-right-radius: 1.93em;
+}
+
+.mainCard {
+  flex-basis: 100%;
+}
+
+.mainCard .image {
+  height: 20rem;
+}
+
+.content {
+  padding: 1.5rem;
+  padding-top: 0;
+}
