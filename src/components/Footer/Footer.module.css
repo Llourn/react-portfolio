@@ -1,4 +1,5 @@
 .container {
   background-color: var(--mantle);
   padding: 2rem;
+  margin-top: 2rem;
 }

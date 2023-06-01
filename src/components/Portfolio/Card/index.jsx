@@ -18,8 +18,16 @@ const Card = ({ mainCard, cardData }) => {
         <p>{cardData.description}</p>
       </section>
       <div className={styles.links}>
-        {cardData.siteUrl && <CgWebsite />}
-        {cardData.repoUrl && <FaGithub />}
+        {cardData.siteUrl && (
+          <a href={cardData.siteUrl} rel="noreferrer" target="_blank">
+            <CgWebsite />
+          </a>
+        )}
+        {cardData.repoUrl && (
+          <a href={cardData.repoUrl} rel="noreferrer" target="_blank">
+            <FaGithub />
+          </a>
+        )}
       </div>
     </div>
   );

@@ -26,3 +26,17 @@
   padding: 1.5rem;
   padding-top: 0;
 }
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-inline: 1.5rem;
+  padding-bottom: 1.5rem;
+  gap: 1rem;
+}
+
+.links > a > * {
+  width: 2rem;
+  height: 2rem;
+}
