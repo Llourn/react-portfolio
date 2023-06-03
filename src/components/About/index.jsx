@@ -17,7 +17,8 @@ const About = () => {
       <section className={styles.infoSection}>
         <h1>About Me</h1>
         <section>
-          <p>Hi, I'm Lorne. 👋🏻</p>
+          <p className={styles.avatar}>(;-_-)ノ</p>
+          <p>Hi, I'm Lorne.</p>
           <p>
             I'm a software developer based in Fredericton, NB specializing in
             full stack development. I appreciate motivation, but prefer

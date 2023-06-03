@@ -38,6 +38,11 @@
   margin: 2rem;
 }
 
+.avatar {
+  letter-spacing: 0.3rem;
+  font-size: 2rem;
+}
+
 .socials {
   display: flex;
   justify-content: flex-end;
