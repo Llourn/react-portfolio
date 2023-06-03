@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.a0e4056a.css",
-    "main.js": "/react-portfolio/static/js/main.d5f4f71c.js",
+    "main.js": "/react-portfolio/static/js/main.6fc3d2ac.js",
     "static/media/cherry-blossom.jpg": "/react-portfolio/static/media/cherry-blossom.6bba142791359dab1488.jpg",
     "index.html": "/react-portfolio/index.html",
     "main.a0e4056a.css.map": "/react-portfolio/static/css/main.a0e4056a.css.map",
-    "main.d5f4f71c.js.map": "/react-portfolio/static/js/main.d5f4f71c.js.map"
+    "main.6fc3d2ac.js.map": "/react-portfolio/static/js/main.6fc3d2ac.js.map"
   },
   "entrypoints": [
     "static/css/main.a0e4056a.css",
-    "static/js/main.d5f4f71c.js"
+    "static/js/main.6fc3d2ac.js"
   ]
 }
