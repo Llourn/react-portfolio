@@ -10,8 +10,10 @@ const Portfolio = () => {
       <section className={styles.cards}>
         {projects.map((project, index) => {
           if (index === 0)
-            return <ProjectCard mainCard={true} cardData={project} />;
-          else return <ProjectCard cardData={project} />;
+            return (
+              <ProjectCard mainCard={true} cardData={project} key={index} />
+            );
+          else return <ProjectCard cardData={project} key={index} />;
         })}
       </section>
     </div>

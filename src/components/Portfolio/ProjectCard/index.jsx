@@ -9,7 +9,7 @@ const ProjectCard = ({ mainCard, cardData }) => {
       <div
         className={styles.image}
         style={{
-          backgroundImage: `url(/images/${cardData.imageFileName})`,
+          backgroundImage: `url(${process.env.PUBLIC_URL}/images/${cardData.imageFileName})`,
         }}
       ></div>
       <section className={styles.content}>
