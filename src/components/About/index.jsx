@@ -6,13 +6,13 @@ const About = () => {
   return (
     <div>
       <div className={styles.hero}>
-        <h1 className={"bubble-japanese"}>
+        <div className={`${styles.heroText} bubble-japanese`}>
           <span>こ</span>
           <span>ん</span>
           <span>に</span>
           <span>ち</span>
           <span>は</span>
-        </h1>
+        </div>
       </div>
       <section className={styles.infoSection}>
         <h1>About Me</h1>
