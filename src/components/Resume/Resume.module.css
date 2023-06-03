@@ -2,6 +2,16 @@
   padding-inline: 2rem;
 }
 
-.spaceAbove {
+.container h2 {
+  color: var(--pink);
+}
+
+.container h3 {
+  color: var(--green);
   margin-top: 2rem;
+}
+
+.container h4 {
+  color: var(--pink);
+  margin-bottom: 0;
 }

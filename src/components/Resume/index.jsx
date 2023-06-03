@@ -20,7 +20,7 @@ const Resume = () => {
         sklearn, pandas
       </p>
       <h3 className={styles.spaceAbove}>Experience</h3>
-      <p>Hexagon Asset Lifecycle Intelligence</p>
+      <h4>Hexagon Asset Lifecycle Intelligence</h4>
       <p>Software Developer (May 2023 - present)</p>
       <ul>
         <li>Internal tools developement</li>
@@ -28,7 +28,7 @@ const Resume = () => {
         <li>Researching and developing ML/DL solutions</li>
       </ul>
 
-      <p className={styles.spaceAbove}>Battlesnake Inc.</p>
+      <h4>Battlesnake Inc.</h4>
       <p>Software Developer (May 2022 - Nov 2022)</p>
       <ul>
         <li>
@@ -48,7 +48,7 @@ const Resume = () => {
         </li>
       </ul>
 
-      <p className={styles.spaceAbove}>University of Fredericton</p>
+      <h4>University of Fredericton</h4>
       <p>Software Developer (Nov 2019 - May 2022)</p>
       <ul>
         <li>
