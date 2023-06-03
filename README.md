@@ -1,6 +1,35 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+
+This is a portfolio website built using React (bootstrapped using create-react-app). The portfolio page is dynamically generated from a JSON file. I chose to use folders for my components to assist with the organization, since I opted to use CSS modules for styling rather than inline css. I prefer CSS modules over inline css because:
+
+- It allows me to keep my css in a separate file, which is easier to read and maintain.
+- It allows me to use the same class names in different components without worrying about conflicts.
+- It allows me to take advantage of all the features of CSS, such as media queries, pseudo classes, etc.
+
+You can view the deployed site [here](https://llourn.github.io/react-portfolio).
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Available Scripts](#available-scripts)
+- [Credits](#credits)
+- [License](#license)
+
+## Installation
+
+Requirements:
+
+- Node v18.x
+- MySQL Server
+
+Instructions:
+
+- clone this repo.
+- cd into project directory
+- npm install
+- `npm run start`
 
 ## Available Scripts
 
@@ -39,32 +68,14 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+MIT License Copyright (c) 2023 Lorne Cyr
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Badges
 
-### Code Splitting
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Credits
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Catppuccin Theme](https://github.com/catppuccin/catppuccin)
