@@ -1,9 +1,0 @@
-.container {
-  margin-inline: 2rem;
-}
-
-.cards {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
