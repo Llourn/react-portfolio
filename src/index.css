@@ -1,6 +1,7 @@
 @import-normalize;
 @import url("https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Quicksand:wght@500&display=swap");
 
+/* General site-wide CSS and variables. */
 :root {
   --rosewater: #f4dbd6;
   --flamingo: #f0c6c6;

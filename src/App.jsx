@@ -13,6 +13,7 @@ function App() {
     setActiveSection(targetState);
   };
 
+  // Conditionally render components based on the state of `activeSection`
   const mainSection = () => {
     if (activeSection === "about-me") {
       return <About />;
