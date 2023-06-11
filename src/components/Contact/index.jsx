@@ -3,11 +3,14 @@ import styles from "./Contact.module.css";
 import { useState } from "react";
 
 const Contact = () => {
+  // Form values
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  // Currently active error message
   const [errorMessage, setErrorMessage] = useState("");
 
+  // Checks form element for changes and saves value to corresponding state.
   const handleInputChange = (e) => {
     const { name, value } = e.target;
 
@@ -20,6 +23,7 @@ const Contact = () => {
     }
   };
 
+  // Checks form elements if input is valid. If not provide a detailed error message to the user.
   const validateInput = (e) => {
     const { name, value } = e.target;
 
