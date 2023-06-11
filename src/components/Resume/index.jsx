@@ -69,6 +69,9 @@ const Resume = () => {
         </li>
         <li>Led hiring, training, and mentoring for new developers.</li>
       </ul>
+      <a href="resume.pdf" download>
+        Click here for full resume.
+      </a>
     </div>
   );
 };

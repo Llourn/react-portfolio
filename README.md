@@ -8,6 +8,8 @@ This is a portfolio website built using React (bootstrapped using create-react-a
 - It allows me to use the same class names in different components without worrying about conflicts.
 - It allows me to take advantage of all the features of CSS, such as media queries, pseudo classes, etc.
 
+![Screenshot of the deployed site](screenshot.png)
+
 You can view the deployed site [here](https://llourn.github.io/react-portfolio).
 
 ## Table of Contents
