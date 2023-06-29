@@ -1,5 +1,12 @@
 [
   {
+    "title": "Culinary Chronicles",
+    "description": "An app for foodies to create and share recipes with others! Built with ReactJS, NodeJS, Graphql, expressJS, Shoelace CSS and MongoDB",
+    "imageFileName": "culinary-chronicles.png",
+    "siteUrl": "https://culinary-chronicles-3c88f23f36ac.herokuapp.com/",
+    "repoUrl": "https://github.com/Llourn/culinary_chronicles"
+  },
+  {
     "title": "Cyriously In Japan",
     "description": "An app to help people learn basic Japanese, and plan their trip to Japan. Built using ReactJS, SASS, Firebase, and Google Maps.",
     "imageFileName": "cij.png",
@@ -19,13 +26,6 @@
     "imageFileName": "dog-finder.png",
     "siteUrl": "https://llourn.github.io/dog-finder/",
     "repoUrl": "https://github.com/Llourn/dog-finder"
-  },
-  {
-    "title": "Project Title",
-    "description": "This is a short description of the app.",
-    "imageFileName": "gojo-running.gif",
-    "siteUrl": "#",
-    "repoUrl": "#"
   },
   {
     "title": "Project Title",
