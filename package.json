@@ -14,7 +14,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build --cname www.lornecyr.com",
     "start": "vite",
     "build": "vite build",
     "serve": "vite preview"

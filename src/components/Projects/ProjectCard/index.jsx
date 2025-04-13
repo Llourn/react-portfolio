@@ -4,12 +4,13 @@ import { CgWebsite } from "react-icons/cg";
 import { FaGithub } from "react-icons/fa";
 
 const ProjectCard = ({ mainCard, cardData }) => {
+  const base = import.meta.env.BASE_URL;
   return (
     <div className={`${mainCard ? styles.mainCard : ""} ${styles.container}`}>
       <div
         className={styles.image}
         style={{
-          backgroundImage: `url(/images/${cardData.imageFileName})`,
+          backgroundImage: `url(${base}images/${cardData.imageFileName})`,
         }}
       ></div>
       <section className={styles.content}>

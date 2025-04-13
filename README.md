@@ -53,6 +53,10 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run deploy`
+
+Using the gh-pages package, builds and deploys the application to the gh-pages branch of the repo. Once completed the web application should be viewable online.
+
 ## License
 
 MIT License Copyright (c) 2025 Lorne Cyr
