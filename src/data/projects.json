@@ -1,9 +1,14 @@
 [
   {
+    "title": "Doconversion",
+    "description": "A Node application built to convert word documents into HTML files. Using a deliberate structure in the word (docx) document allows the application to parse the document and generate html files with required styles and formatting.",
+    "imageFileName": "doconversion-screenshot.png",
+    "repoUrl": "https://github.com/Llourn/doconversion"
+  },
+  {
     "title": "Culinary Chronicles",
     "description": "An app for foodies to create and share recipes with others! Built with ReactJS, NodeJS, Graphql, expressJS, Shoelace CSS and MongoDB",
     "imageFileName": "culinary-chronicles.png",
-    "siteUrl": "https://culinary-chronicles-3c88f23f36ac.herokuapp.com/",
     "repoUrl": "https://github.com/Llourn/culinary_chronicles"
   },
   {
@@ -17,7 +22,6 @@
     "title": "Card Wise",
     "description": "A browser-based study app that allows users to create and share decks of study cards. Built using Handlebars, ExpressJS, Mysql, Sequelize, and Nodejs.",
     "imageFileName": "cardwise.png",
-    "siteUrl": "https://dry-badlands-78694.herokuapp.com/",
     "repoUrl": "https://github.com/Pilotguide9897/CardWise"
   },
   {
@@ -26,19 +30,5 @@
     "imageFileName": "dog-finder.png",
     "siteUrl": "https://llourn.github.io/dog-finder/",
     "repoUrl": "https://github.com/Llourn/dog-finder"
-  },
-  {
-    "title": "Project Title",
-    "description": "This is a short description of the app.",
-    "imageFileName": "mob-running.gif",
-    "siteUrl": "#",
-    "repoUrl": "#"
-  },
-  {
-    "title": "Project Title",
-    "description": "This is a short description of the app.",
-    "imageFileName": "unknown-running.gif",
-    "siteUrl": "#",
-    "repoUrl": "#"
   }
 ]

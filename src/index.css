@@ -1,5 +1,5 @@
-@import-normalize;
 @import url("https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Quicksand:wght@500&display=swap");
+@import-normalize;
 
 /* General site-wide CSS and variables. */
 :root {
@@ -43,6 +43,8 @@ body {
 main {
   max-width: var(--siteWidth);
   margin: auto;
+  padding-bottom: 2rem;
+  box-shadow: -5px 0 10px rgba(0, 0, 0, 0.3), 5px 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .bubble-japanese {
@@ -86,4 +88,8 @@ textarea {
   background-color: var(--surface0);
   color: var(--subtext1);
   font-family: inherit;
+}
+
+h1:first-child {
+  display: inline-block;
 }

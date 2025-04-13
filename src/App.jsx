@@ -2,9 +2,8 @@ import { useState } from "react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import About from "./components/About";
-import Portfolio from "./components/Portfolio";
+import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import Resume from "./components/Resume";
 
 function App() {
   const [activeSection, setActiveSection] = useState("about-me");
@@ -17,12 +16,10 @@ function App() {
   const mainSection = () => {
     if (activeSection === "about-me") {
       return <About />;
-    } else if (activeSection === "portfolio") {
-      return <Portfolio />;
+    } else if (activeSection === "projects") {
+      return <Projects />;
     } else if (activeSection === "contact-me") {
       return <Contact />;
-    } else if (activeSection === "resume") {
-      return <Resume />;
     }
   };
 

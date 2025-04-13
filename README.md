@@ -72,7 +72,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## License
 
-MIT License Copyright (c) 2023 Lorne Cyr
+MIT License Copyright (c) 2025 Lorne Cyr
 
 ## Badges
 

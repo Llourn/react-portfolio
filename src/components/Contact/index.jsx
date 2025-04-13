@@ -51,41 +51,8 @@ const Contact = () => {
   return (
     <div className={styles.container}>
       <h1>Contact</h1>
-      <section className={styles.contactForm}>
-        <form>
-          <label name="name">Name:</label>
-          <input
-            type="text"
-            name="name"
-            onChange={handleInputChange}
-            onBlur={validateInput}
-            value={name}
-            id=""
-          />
-          <label name="email">Email:</label>
-          <input
-            type="text"
-            name="email"
-            onChange={handleInputChange}
-            onBlur={validateInput}
-            value={email}
-            id=""
-          />
-          <label name="message">Message:</label>
-          <textarea
-            name="message"
-            onChange={handleInputChange}
-            onBlur={validateInput}
-            value={message}
-            id=""
-            cols="30"
-            rows="10"
-          ></textarea>
-          <div className={styles.error}>{errorMessage}</div>
-          <div className={styles.buttonContainer}>
-            <button onClick={(e) => e.preventDefault()}>Submit</button>
-          </div>
-        </form>
+      <section>
+        <p>I can be reached at my email <a href="mailto:Lorne.S.Cyr@gmail.com">Lorne.S.Cyr@gmail.com</a> or on <a href="https://www.linkedin.com/in/lornecyr/" target="_blank" rel="noopener noreferrer" >LinkedIn</a>.</p>
       </section>
     </div>
   );

@@ -10,9 +10,8 @@ const Header = ({ changeActiveSection }) => {
         <nav>
           <ul className={styles.links}>
             <li onClick={() => changeActiveSection("about-me")}>About Me</li>
-            <li onClick={() => changeActiveSection("portfolio")}>Portfolio</li>
+            <li onClick={() => changeActiveSection("projects")}>Projects</li>
             <li onClick={() => changeActiveSection("contact-me")}>Contact</li>
-            <li onClick={() => changeActiveSection("resume")}>Resume</li>
           </ul>
         </nav>
       </div>

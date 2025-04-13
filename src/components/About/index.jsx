@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./About.module.css";
 import lorneImage from "./working-hard.jpeg";
-import { FaTwitterSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -21,45 +21,31 @@ const About = () => {
           <img
             className={styles.avatar}
             src={lorneImage}
-            alt="Lorne Cyr, diligently working on something super important."
+            alt="Lorne, diligently working on something super important."
           />
           <div className={styles.content}>
-            <p>Hi, I'm Lorne.</p>
+            <p>Hi, I'm Lorne. 👋</p>
             <p>
-              I'm a software developer based in Fredericton, NB specializing in
-              full stack development. I appreciate motivation, but prefer
-              discipline especially when it comes to learning and writing code.
-              My career in development started in gameplay programming, building
-              games/applications for studios throughout the maritimes. I've
-              since moved into web development, building online courses for{" "}
-              <a
-                href="http://ufred.ca"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                The University of Fredericton
-              </a>{" "}
-              and Vue apps for{" "}
-              <a
-                href="http://battlesnake.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Battlesnake Inc.
-              </a>{" "}
-              In my spare time I like to work on personal projects related to
-              other interests of mine, like learning Japanese
-              「がんばってね！」. I also value work/life balance and know when
-              to step away from the computer and recharge.
+              I'm a software developer with a knack for building tools that make
+              life easier for both users and dev teams. I’ve worked on
+              everything from internal apps that automate huge workflows, to
+              real-time tournament platforms, to VR projects and online learning
+              tools. These days I’m working at Hexagon, where I help maintain
+              and improve a pretty complex tech stack with AngularJS, .NET, and
+              a bit of AI exploration on the side.
+            </p>
+            <p>
+              I enjoy solving tricky problems, improving performance, and
+              finding ways to speed up development without sacrificing quality.
+              I’ve also had a chance to mentor new devs, lead projects, and work
+              closely with designers and content teams to bring ideas to life.
+            </p>
+            <p>
+              Outside of work, I’m learning Japanese (頑張りましょう！) and
+              planning a future trip to Japan. Always happy to connect with
+              folks working on cool projects—tech-related or otherwise.
             </p>
             <div className={styles.socials}>
-              <a
-                href="https://www.twitter.com/llourn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaTwitterSquare />
-              </a>
               <a
                 href="https://github.com/Llourn"
                 target="_blank"
